@@ -1,0 +1,127 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    min-height: calc(100vh - 264px);
+    max-width: 800px;
+    margin: auto;
+}
+
+.cover-container {
+    width: 100%;
+    padding-bottom: 47.25%;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    height: 40%;
+}
+
+.cover {
+    background-image: url("img/flash_img.png");
+    background-size: contain;
+    position: absolute;
+    inset: 0;
+}
+
+.navbar {
+    min-height: 56px;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.nav-item {
+    flex: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: brown;
+    color: white;
+    text-transform: uppercase;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 600;
+    padding: 20px 10px;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    background-image: url("img/rings.png");
+    background-color: black;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.header-texture {
+    height: 52px;
+    background-image: url("img/top_bg.png");
+    background-repeat: repeat-x;
+}
+
+.footer-texture {
+    height: 212px;
+    background-image: url("img/foot_bg.png");
+    background-repeat: repeat-x;
+}
+
+.container {
+    padding: 5px 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col {
+    position: relative;
+    flex-basis: 25%;
+    min-width: 150px;
+    padding-top: 40px;
+}
+
+.col-2 {
+    flex: 1;
+    min-width: 300px;
+}
+
+.col-caption {
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+}
+
+.title {
+    color: brown;
+    margin-top: 10px;
+}
+
+.paragraph {
+    font-size: 12px;
+}
+
+.text-button {
+    font-size: 12px;
+    color: brown;
+}
+
+.col-img {
+    width: calc(100% - 10px);
+}
+
+.caption {
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.align-self-end {
+    align-self: flex-end;
+}
